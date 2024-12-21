@@ -1,0 +1,60 @@
+div{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.main-div{
+  border: 1px solid rgb(172, 172, 172);
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  height: 400px;
+  box-shadow: 3px 3px 20px rgb(184, 184, 184);
+  border-radius: 10px;
+
+
+}
+button{
+  margin-left: 5px;
+  background: blueviolet;
+  color: white ;
+  padding-left:20px ;
+  padding-right:20px ;
+  padding-top:5px ;
+  padding-bottom:5px ;
+  font-size: 15px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+button:hover{
+  background-color: rgb(102, 33, 167);
+}
+
+input{
+  padding-left:20px ;
+  padding-right:20px ;
+  padding-top:5px ;
+  padding-bottom:5px ;
+  border-radius: 3px;
+}
+
+table{
+  margin: auto;
+  padding-top: 20px;
+  font-size: larger;
+}
+
+.delete{
+  background-color: red;
+}
+.edit{
+  background-color: blue;
+}
+.delete:hover{
+  background-color: rgb(180, 3, 3);
+}
+.edit:hover{
+  background-color: rgb(2, 2, 177);
+}
